@@ -1,0 +1,115 @@
+[Setup Wizard Template]
+TemplateDate=28/12/98 10:29:17 AM
+
+[Select Project and Options]
+txtProjFile=C:\contract\gsr32\Gsr.vbp
+chkProjRebuild=1
+optBldSetup=True
+chkIncludeDEP=0
+optInternet=False
+optDEPOnly=False
+
+[Distribution Method]
+optFloppyTarg=False
+optSingleDirTarg=False
+optMultDirTarg=True
+
+[Multiple Directories]
+cboFloppyDrives=0
+cboFloppyDriveSize=0
+txtDirTarget=C:\contract\gsr32\distrib\
+
+[Internet Package]
+optRemoteSite=True
+optLocalSite=False
+txtLocalSite=
+
+[Data Access]
+chkUseJet=1
+chkUseODBC=0
+Isam0=
+
+[ActiveX Server Components]
+File1=
+
+[Confirm Dependencies]
+File1="C:\WINDOWS\SYSTEM\COMDLG32.OCX",True,32764
+File2="C:\WINDOWS\SYSTEM\THREED32.OCX",True,32764
+File3="C:\WINDOWS\SYSTEM\MSMASK32.OCX",True,32764
+File4="C:\WINDOWS\SYSTEM\TABCTL32.OCX",True,32764
+File5="C:\WINDOWS\SYSTEM\CRYSTL32.OCX",True,32764
+File6="C:\WINDOWS\SYSTEM\GRAPH32.OCX",True,32764
+File7="C:\WINDOWS\SYSTEM\GRID32.OCX",True,32764
+File8="C:\PROGRAM FILES\COMMON FILES\MICROSOFT SHARED\DAO\dao2535.tlb",True,32763
+File9=
+
+[Shared ActiveX Application]
+optDeployApplication=True
+optDeployShared=False
+optRemoteServer1=True
+optRemoteServer0=False
+
+[File Summary]
+File1="C:\WINDOWS\SYSTEM\MSVBVM50.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File2="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\StdOle2.tlb",True,"$(WinSysPathSysFile)",$(TLBRegister),False
+File3="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OleAut32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File4="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\OlePro32.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File5="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\AsycFilt.dll",True,"$(WinSysPathSysFile)",,False
+File6="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\Ctl3d32.dll",True,"$(WinSysPathSysFile)",,False
+File7="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\ComCat.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File8="C:\WINDOWS\SYSTEM\COMDLG32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File9="C:\WINDOWS\SYSTEM\THREED32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File10="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\MFC40.dll",True,"$(WinSysPathSysFile)",$(DLLSelfRegister),False
+File11="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\MSVCRT40.dll",True,"$(WinSysPathSysFile)",,False
+File12="C:\WINDOWS\SYSTEM\MSMASK32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File13="C:\WINDOWS\SYSTEM\TABCTL32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File14="C:\WINDOWS\SYSTEM\CRYSTL32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File15="C:\WINDOWS\SYSTEM\CRPE32.DLL",True,"$(WinSysPath)",,True
+File16="C:\WINDOWS\SYSTEM\IMPLODE.DLL",True,"$(WinSysPath)",,True
+File17="C:\WINDOWS\SYSTEM\PG32.DLL",True,"$(WinSysPath)",,True
+File18="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\CO2C40EN.DLL",True,"$(WinSysPath)",,True
+File19="C:\Program Files\DevStudio\VB\SETUPKIT\KITFIL32\SYS32\MSVCRT20.DLL",True,"$(WinSysPathSysFile)",,False
+File20="C:\WINDOWS\Crystal\CRXLAT32.DLL",True,"$(WinPath)\Crystal",,True
+File21="C:\WINDOWS\SYSTEM\P2BBND.DLL",True,"$(WinSysPath)",,True
+File22="C:\WINDOWS\SYSTEM\P2BDAO.DLL",True,"$(WinSysPath)",,True
+File23="C:\WINDOWS\SYSTEM\P2CTDAO.DLL",True,"$(WinSysPath)",,True
+File24="C:\WINDOWS\SYSTEM\P2IRDAO.DLL",True,"$(WinSysPath)",,True
+File25="C:\WINDOWS\SYSTEM\P2SODBC.DLL",True,"$(WinSysPath)",,True
+File26="C:\WINDOWS\Crystal\U2DDISK.DLL",True,"$(WinPath)\Crystal",,True
+File27="C:\WINDOWS\Crystal\U2DMAPI.DLL",True,"$(WinPath)\Crystal",,True
+File28="C:\WINDOWS\Crystal\U2FCR.DLL",True,"$(WinPath)\Crystal",,True
+File29="C:\WINDOWS\Crystal\U2FDIF.DLL",True,"$(WinPath)\Crystal",,True
+File30="C:\WINDOWS\Crystal\U2FHTML.DLL",True,"$(WinPath)\Crystal",,True
+File31="C:\WINDOWS\Crystal\U2FREC.DLL",True,"$(WinPath)\Crystal",,True
+File32="C:\WINDOWS\Crystal\U2FRTF.DLL",True,"$(WinPath)\Crystal",,True
+File33="C:\WINDOWS\Crystal\U2FSEPV.DLL",True,"$(WinPath)\Crystal",,True
+File34="C:\WINDOWS\Crystal\U2FTEXT.DLL",True,"$(WinPath)\Crystal",,True
+File35="C:\WINDOWS\Crystal\U2FWKS.DLL",True,"$(WinPath)\Crystal",,True
+File36="C:\WINDOWS\Crystal\U2FWORDW.DLL",True,"$(WinPath)\Crystal",,True
+File37="C:\WINDOWS\Crystal\U2FXLS.DLL",True,"$(WinPath)\Crystal",,True
+File38="C:\WINDOWS\SYSTEM\GRAPH32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File39="C:\WINDOWS\SYSTEM\gsw32.exe",True,"$(WinSysPath)",,True
+File40="C:\WINDOWS\SYSTEM\gswdll32.dll",True,"$(WinSysPath)",,True
+File41="C:\WINDOWS\SYSTEM\GRID32.OCX",True,"$(WinSysPath)",$(DLLSelfRegister),True
+File42="C:\PROGRAM FILES\COMMON FILES\MICROSOFT SHARED\DAO\dao2535.tlb",True,"$(MSDAOPath)",$(TLBRegister),True
+File43="C:\Program Files\Common Files\Microsoft Shared\DAO\Dao350.dll",True,"$(MSDAOPath)",$(DLLSelfRegister),True
+File44="C:\WINDOWS\SYSTEM\MSJtEr35.dll",True,"$(WinSysPathSysFile)",,False
+File45="C:\WINDOWS\SYSTEM\MSJInt35.dll",True,"$(WinSysPathSysFile)",,False
+File46="C:\contract\gsr32\gsr.hlp",True,"$(AppPath)",,False
+File47="C:\contract\gsr32\GSR.exe",True,"$(AppPath)",,False
+File48="C:\contract\gsr32\register.txt",True,"$(AppPath)",,False
+File49="C:\contract\gsr32\l_roster.rpt",True,"$(AppPath)",,False
+File50="C:\contract\gsr32\l_stfdet.rpt",True,"$(AppPath)",,False
+File51="C:\contract\gsr32\L_STFTIM.RPT",True,"$(AppPath)",,False
+File52="C:\contract\gsr32\p_detstf.rpt",True,"$(AppPath)",,False
+File53="C:\contract\gsr32\p_except.rpt",True,"$(AppPath)",,False
+File54="C:\contract\gsr32\p_genstf.rpt",True,"$(AppPath)",,False
+File55="C:\contract\gsr32\p_master.rpt",True,"$(AppPath)",,False
+File56="C:\contract\gsr32\p_rosdet.rpt",True,"$(AppPath)",,False
+File57="C:\contract\gsr32\p_roster.rpt",True,"$(AppPath)",,False
+File58="C:\contract\gsr32\p_stfdet.rpt",True,"$(AppPath)",,False
+File59="C:\contract\gsr32\p_stftim.rpt",True,"$(AppPath)",,False
+File60="C:\contract\gsr32\gsr.dat",True,"$(AppPath)",,False
+File61="C:\contract\gsr32\gsr.txt",True,"$(AppPath)",,False
+File62="C:\contract\gsr32\readme.txt",True,"$(AppPath)",,False
+File63="C:\contract\gsr32\l_master.rpt",True,"$(AppPath)",,False
